@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "types.proto";
+
+package com.epam.edu.grpc.proto;
+
+service MessageService {
+  rpc send(Request) returns (Response) {};
+}

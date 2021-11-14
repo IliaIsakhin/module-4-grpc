@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.epam.edu.grpc.proto;
+
+message Request {
+  string message = 1;
+  optional int64 time = 2;
+}
+
+message Response {
+  string answer = 1;
+  optional int64 time = 2;
+}
